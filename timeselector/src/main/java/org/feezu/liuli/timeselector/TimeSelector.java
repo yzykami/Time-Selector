@@ -632,4 +632,9 @@ public class TimeSelector {
         this.hour_pv.setIsLoop(isLoop);
         this.minute_pv.setIsLoop(isLoop);
     }
+    
+    public void setShowYear(int index)
+    {
+        this.year_pv.setSelected(0);
+    }
 }
